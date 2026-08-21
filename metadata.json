@@ -1,0 +1,7 @@
+{
+  "name": "SuperMart - Modern Supermarket & Electronics",
+  "description": "Professional supermarket e-commerce store with real-time inventory tracker, multi-category catalog, interactive deals, and secure payment gateway.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
