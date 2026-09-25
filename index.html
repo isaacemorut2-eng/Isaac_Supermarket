@@ -1,18 +1,14 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Google AI Studio App</title>
-    <meta name="description" content="An application built with Google AI Studio." />
-    <meta property="og:title" content="My Google AI Studio App" />
-    <meta property="og:description" content="An application built with Google AI Studio." />
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
-</html>
-
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wealth Banking SACCO</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css">
+</head>
+<body><div class="app-shell">
+<aside class="sidebar" id="sidebar"><div class="brand"><div class="brand-mark">WB</div><div><strong>Wealth Banking</strong><span>SACCO management</span></div></div>
+<nav class="nav"><p class="nav-label">Workspace</p><button class="nav-item active" data-view="dashboard">⌂ <span>Dashboard</span></button><button class="nav-item" data-view="members">♙ <span>Members</span></button><button class="nav-item" data-view="savings">◌ <span>Savings</span></button><button class="nav-item" data-view="loans">▣ <span>Loans</span></button><p class="nav-label">Finance</p><button class="nav-item" data-view="income">↗ <span>Income</span></button><button class="nav-item" data-view="expenses">↘ <span>Expenses</span></button><button class="nav-item" data-view="reports">▥ <span>Reports</span></button></nav>
+<div class="sidebar-footer"><button class="nav-item" data-view="settings">⚙ <span>Settings</span></button><div class="user-chip"><div class="avatar">AM</div><div><strong>Admin Manager</strong><span>Administrator</span></div></div></div></aside>
+<main class="main-content"><header class="topbar"><button class="mobile-menu" id="mobileMenu">☰</button><div class="breadcrumbs">Workspace <b>/</b> <strong id="breadcrumb">Dashboard</strong></div><div class="top-actions"><button class="icon-button">♢<i></i></button><button class="date-pill">24 Sep 2026 <span>⌄</span></button></div></header><div id="app" class="page"></div></main></div>
+<div class="toast" id="toast"></div><div class="modal-backdrop" id="modalBackdrop"><div class="modal" id="modal"></div></div><script src="app.js"></script></body></html>
